@@ -47,5 +47,12 @@ public class Loops {
 
     public static void main(String[] args) {
         // Puedes probar tus métodos aquí si quieres.
+        // Cuando le des a "Run" ejecutará el main y podrás ver los resultados.
+        System.out.println("Reto 1: Suma de elementos con while");
+        System.out.println("Resultado: " + sumArrayWhile());
+        System.out.println("Reto 2: Contar números pares con DO WHILE");
+        System.out.println("Resultado: " + countEvenNumbersDoWhile());
+        System.out.println("Reto 3: Recorrer un array con FOR BÁSICO");
+        System.out.println("Resultado: " + findMaxWithFor());
     }
 }
